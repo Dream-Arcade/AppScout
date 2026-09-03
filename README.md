@@ -39,8 +39,6 @@ AppScout only works with credentials Reddit has approved for your use case.
 3. After approval, add your client ID and secret in **Settings**.
 4. Keep usage low and limited to the subreddits/use case you described in your request.
 
-Self-service app creation at `reddit.com/prefs/apps` is no longer sufficient for most new developers. Do not use AppScout to circumvent Reddit’s approval or terms.
-
 ## Setup
 
 ### Prerequisites
