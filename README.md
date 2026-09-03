@@ -30,16 +30,6 @@ This is intended for **personal, non-commercial, low-volume** use by the develop
 - Use Reddit data to train AI models
 - Bypass Reddit rate limits or access private/restricted content
 
-## Reddit API access
-
-AppScout only works with credentials Reddit has approved for your use case.
-
-1. Review Reddit’s [Responsible Builder Policy](https://support.reddithelp.com/hc/en-us/articles/42728983564564-Responsible-Builder-Policy).
-2. Request Data API access through [Reddit Help](https://support.reddithelp.com/hc/en-us/requests/new) if you do not already have approved credentials.
-3. After approval, add your client ID and secret in **Settings**.
-4. Keep usage low and limited to the subreddits/use case you described in your request.
-
-## Setup
 
 ### Prerequisites
 
@@ -63,22 +53,5 @@ npm run tauri dev
 ```bash
 npm run tauri build
 ```
-
-## Privacy & storage
-
-- Reddit credentials, optional OpenAI key, tracked apps, and saved posts/drafts stay **on your computer** (browser local storage inside the desktop app).
-- Scanning runs only while the app is open and when you click **Scan**.
-- Optional OpenAI drafting uses your own key and is not required.
-
-## Community guidelines for replies
-
-If you use a drafted reply on Reddit:
-
-- Be helpful first; mention your app only when it clearly fits.
-- Follow each subreddit’s rules (many disallow promotional comments).
-- Never present automation as a human if you were not the one posting.
-- Do not mass-post the same pitch across threads.
-
-## License / status
 
 Personal development project. Not an official Reddit product.
