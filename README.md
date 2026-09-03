@@ -1,6 +1,6 @@
 # AppScout
 
-Desktop Reddit lead finder for indie apps — built with Tauri 2 + React + TypeScript.
+Desktop Reddit lead finder for indie apps, built with Tauri 2 + React + TypeScript.
 
 ## What it does
 
@@ -19,30 +19,6 @@ No auto-posting.
 - Node.js 20+
 - Rust (rustup)
 - macOS: Xcode Command Line Tools
-
-### Reddit API app
-
-1. Go to https://www.reddit.com/prefs/apps
-2. Create an app → type **script**
-3. Redirect URI: `http://localhost`
-4. Copy the client ID and secret into AppScout → Settings
-
-### Run
-
-Use the **desktop window**, not a browser tab:
-
-```bash
-npm install
-npm run tauri dev
-```
-
-`http://localhost:1420` is only the Vite preview. Reddit scan and reply generation need the Tauri app.
-
-### Build installer
-
-```bash
-npm run tauri build
-```
 
 ## Notes
 
